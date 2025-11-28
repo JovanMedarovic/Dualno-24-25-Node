@@ -5,11 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
+<body style="display: flex; gap: 20px;">
   <ul id="listToShow">
   </ul>
-  <input type="text" id="inputPostName">
-  <button id="addPostBtn">Add</button>
+  <div>
+    <div style="margin-bottom: 20px;">
+      <input type="text" id="inputPostName">
+      <button id="addPostBtn">Add</button>
+    </div>
+    <div>
+      <input type="text" id="editPostName">
+      <button id="editPostBtn">Edit</button>
+    </div>
+  </div>
   <script src="./script.js" type="module"></script>
 </body>
 </html>
